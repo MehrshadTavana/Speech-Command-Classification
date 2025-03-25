@@ -48,7 +48,7 @@ class NN(nn.Module):
         x = self.fc3(x)
         
         #print(x.shape)
-        return x 
+        # return x 
     
 class NN2D(nn.Module):
     def __init__(self, num_class):
